@@ -1,0 +1,39 @@
+
+Constraints and rule-set:
+
+Variable elements:
+Large Red Letter - this changes each time, it is sampled from a random line in the .txt file with the Ayn Rand quote
+Text in top left corner - this is randomly taken from the .txt file with the Ayn Rand quote
+Brown Bars under text in top left corner - these are automatically adjusted to the lenght of the ayn rand quote (which changes each time)
+Dots in the background - shape cycles through circle and rectangle randomly based on whether or not when the number in the equation is divided by 2 the remainder is 0.
+
+
+
+
+
+/*
+
+ Processing Code by Simon Jarvis
+ VUW School of Design, DSDN142, 2014
+ Reference material provided by:
+ Birgit Bachler
+ processing.org
+ help with color arrays found here: http://forum.processing.org/two/discussion/3489/how-to-create-an-array-of-pre-defined-colors/p1
+ fonts taken from google fonts: http://www.google.com/fonts
+ Ayn Rand quote from: https://www.brainyquote.com/quotes/authors/a/ayn_rand.html
+ PDF rference: https://processing.org/reference/libraries/pdf/
+ Discussion around alpha channels using PShape: 
+ http://forum.processing.org/two/discussion/3656/changing-alpha-of-an-svg-file-loaded-into-pshape-can-it-be-done/p1
+ force uppercase; https://www.processing.org/reference/String_toUpperCase_.html
+ 
+ 
+ Ayn Rand (uuugghhh): Quote from aforementioned url...
+ Achievement of your happiness is the only moral
+ purpose of your life, and that happiness, not pain 
+ or mindless self-indulgence, is the proof of your 
+ moral integrity, since it is the proof and the result 
+ of your loyalty to the achievement of your values.
+ 
+
+ 
+ */
